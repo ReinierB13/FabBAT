@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand colors */
+  --color-navy: #1e2a4a;
+  --color-navy-dark: #141d34;
+  --color-navy-light: #2a3a63;
+  --color-accent: #2563eb;
+  --color-accent-dark: #1d4ed8;
+  --color-accent-light: #3b82f6;
+  --color-surface: #f8f9fa;
+
+  /* Fonts */
+  --font-heading: "Barlow Condensed", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-body);
+    color: var(--color-navy);
+    background: #ffffff;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-accent);
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.75rem 1.75rem;
+    border-radius: 0.375rem;
+    transition: background-color 0.15s ease;
+    text-decoration: none;
+  }
+  .btn-primary:hover {
+    background-color: var(--color-accent-dark);
+  }
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.75rem 1.75rem;
+    border-radius: 0.375rem;
+    transition: background-color 0.15s ease, color 0.15s ease;
+    text-decoration: none;
+  }
+  .btn-outline:hover {
+    background-color: #ffffff;
+    color: var(--color-navy);
+  }
+  .section-label {
+    display: block;
+    color: var(--color-accent);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+  }
+}
