@@ -21,7 +21,7 @@ export default function Footer() {
                 alt="FAB Industrie Tertiaire"
                 width={150}
                 height={50}
-                className="brightness-0 invert h-12 w-auto"
+                className="invert mix-blend-screen h-12 w-auto"
               />
             </Link>
             <p className="text-white/60 text-sm mb-4 leading-relaxed">

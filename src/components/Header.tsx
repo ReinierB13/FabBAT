@@ -27,7 +27,7 @@ export default function Header() {
               alt="FAB Industrie Tertiaire"
               width={120}
               height={40}
-              className="brightness-0 invert h-9 w-auto"
+              className="invert mix-blend-screen h-9 w-auto"
             />
           </Link>
 
