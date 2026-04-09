@@ -23,11 +23,11 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 shrink-0">
             <Image
-              src="/logo.png"
+              src="/logo_transparent.png"
               alt="FAB Industrie Tertiaire"
               width={120}
               height={40}
-              className="invert mix-blend-screen h-9 w-auto"
+              className="invert h-9 w-auto"
             />
           </Link>
 

@@ -40,11 +40,11 @@ export default function HeroSection({
         {/* Large logo */}
         <div className="mb-8">
           <Image
-            src="/logo.png"
+            src="/logo_transparent.png"
             alt="FAB Industrie Tertiaire"
             width={420}
             height={140}
-            className="invert mix-blend-screen w-64 sm:w-80 md:w-[420px] h-auto"
+            className="invert w-64 sm:w-80 md:w-[420px] h-auto"
             priority
           />
         </div>

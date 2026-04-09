@@ -17,11 +17,11 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Link href="/" className="inline-block mb-4">
               <Image
-                src="/logo.png"
+                src="/logo_transparent.png"
                 alt="FAB Industrie Tertiaire"
                 width={150}
                 height={50}
-                className="invert mix-blend-screen h-12 w-auto"
+                className="invert h-12 w-auto"
               />
             </Link>
             <p className="text-white/60 text-sm mb-4 leading-relaxed">
