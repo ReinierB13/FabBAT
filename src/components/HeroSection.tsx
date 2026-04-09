@@ -37,6 +37,17 @@ export default function HeroSection({
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-24">
+        {/* Large logo */}
+        <div className="mb-8">
+          <Image
+            src="/logo.png"
+            alt="FAB Industrie Tertiaire"
+            width={420}
+            height={140}
+            className="invert mix-blend-screen w-64 sm:w-80 md:w-[420px] h-auto"
+            priority
+          />
+        </div>
         <span className="section-label text-accent-light">
           Entreprise BTP — Bouches-du-Rhône
         </span>
